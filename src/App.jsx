@@ -1,4 +1,7 @@
+import TabButton from '../src/components/TabButton.jsx';
+import Section from './components/Section.jsx'
 function App() {
+
   return (
     <div>
       <header>
@@ -11,6 +14,9 @@ function App() {
       </header>
       <main>
         <h2>Time to get started!</h2>
+        <Section id="examples" TabButton={TabButton}>
+          <h2>Examples</h2>
+        </Section>
       </main>
     </div>
   );
